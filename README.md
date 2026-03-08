@@ -26,9 +26,6 @@ Jika pengguna menekan tombol **Continue** tanpa mengisi data dengan benar, maka 
 - Email wajib diisi dan harus menggunakan format email yang valid.
 - Password minimal 8 karakter dan harus mengandung huruf besar.
 
-Validasi ini dibuat menggunakan fungsi `validator` pada `TextFormField`.  
-Selain itu form juga menggunakan `autovalidateMode: AutovalidateMode.onUserInteraction` sehingga pesan error akan muncul ketika user mulai berinteraksi dengan input.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/cf683290-2d1a-4fed-9347-c04f99fdc432" />
 
 Pada tahap ini pengguna telah mengisi **nama lengkap, email, dan password**. Jika semua data sudah valid, pengguna dapat menekan tombol **Continue** untuk melanjutkan ke tahap berikutnya yaitu **Informasi Pribadi**.
